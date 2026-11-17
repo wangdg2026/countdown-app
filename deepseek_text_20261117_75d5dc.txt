@@ -1,0 +1,37 @@
+CountdownApp/                          ← 仓库根目录
+├── .github/
+│   └── workflows/
+│       └── build.yml
+├── settings.gradle.kts
+├── build.gradle.kts
+├── gradle.properties
+└── app/
+    ├── build.gradle.kts
+    ├── proguard-rules.pro
+    └── src/main/
+        ├── AndroidManifest.xml
+        ├── java/com/example/countdown/
+        │   ├── MainActivity.kt
+        │   ├── data/
+        │   │   ├── Event.kt
+        │   │   ├── EventRepository.kt
+        │   │   └── VipCodes.kt
+        │   ├── notify/
+        │   │   ├── ReminderScheduler.kt
+        │   │   ├── ReminderReceiver.kt
+        │   │   └── BootReceiver.kt
+        │   ├── vm/
+        │   │   └── EventViewModel.kt
+        │   └── ui/
+        │       ├── AppRoot.kt
+        │       ├── EventListScreen.kt
+        │       ├── EditEventScreen.kt
+        │       └── VipScreen.kt
+        └── res/
+            ├── drawable/ic_launcher_foreground.xml
+            ├── drawable/ic_notification.xml
+            ├── mipmap-anydpi-v26/ic_launcher.xml
+            └── values/
+                ├── colors.xml
+                ├── strings.xml
+                └── themes.xml
